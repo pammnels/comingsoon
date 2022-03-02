@@ -1,0 +1,106 @@
+/* This is a comment. */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	background-color: #360518;	
+	}
+	
+h1 {
+	font-size: 300%;
+	}
+	
+p {
+	font-size: 120%;
+	line-height: 1.75;
+	}
+	
+a {
+	color: #5b7ef0;
+	text-decoration: none;
+	}
+	
+.uppercase {
+	text-transform: uppercase;
+	}
+	
+.lowercase {
+	text-transform: lowercase;
+	}
+
+.right {
+	float: right;
+	}
+	
+img.snapshot {
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+	margin: 10px 20px 40px 30px;     /* margin: TOP RIGHT BOTTOM LEFT */
+	
+	box-shadow: 10px 10px 15px rgba(0,0,0,.3);     
+	
+/* box-shadow: HORIZONTAL_OFFSET VERTICAL_OFFSET BLUR_RADIUS COLOUR
+   COLOUR is = rgba(RED GREEN BLUE ALPHA)
+   ALPHA is = the OPACITY value for the RGB colour */
+
+	-moz-transform: rotate(-5deg);     /* for FIREFOX */
+	-webkit-transform: rotate(-5deg);     /* for CHROME, SAFARI */
+	-o-transform: rotate(-5deg);     /* for OPERA */
+	-ms-transform: rotate(-5deg);     /* for IE */
+	
+/* NOTE: Vendor prefixes won't validate, so don't panic when the W3C CSS Validator reports  these as errors. Eventually the different prefixes won't be required and you'll only need { transform: rotate(-5deg); } */
+	
+	}
+	
+div {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: transparent;
+	border-radius: 10px;
+	}
+	
+#container {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	}
+	
+#main {
+	background-color: #63062b;
+	padding: 30px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,.1);     
+	}
+	
+#priority {
+	font-size: 120%;
+	width: 75%;
+	margin: auto;
+	background-color: #fffa66;
+	color: #030303;
+	text-align: center;
+	clear: right;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);     
+	}
+	
+#priority a {
+	color: #030303;
+	}
+	
+#priority a:hover {
+	color: #9c0b40;
+	}
+	
+#footer {
+	text-align: center;
+	font-size: 50%;
+	padding: 15px;
+	}
+	
+#footer img {
+	margin: 5px;
+	}
+	
+
+
+	
